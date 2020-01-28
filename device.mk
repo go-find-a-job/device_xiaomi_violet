@@ -310,6 +310,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
 
+#NexusLauncherRelease
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/permissions/privapp-permissions-NexusLauncherRelease.xml:system/product/etc/permissions/privapp-permissions-NexusLauncherRelease.xml
+
+PRODUCT_PACKAGES += \
+    NexusLauncherRelease
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2-service.violet
